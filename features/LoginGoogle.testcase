@@ -1,0 +1,24 @@
+Etiquetas: 
+@Login @Google
+
+Identificador: 
+TC001
+
+Título: 
+Login exitoso con Google
+
+Descripción: 
+Validar que un usuario pueda iniciar sesión exitosamente utilizando su cuenta de Google.
+
+Precondiciones: 
+1. El usuario debe tener una cuenta de Google activa.
+2. La aplicación debe estar configurada para permitir el inicio de sesión con Google.
+
+Pasos: 
+1. Navegar a la página de inicio de sesión de la aplicación.
+2. Hacer clic en el botón "Iniciar sesión con Google".
+3. Seleccionar la cuenta de Google deseada en la ventana emergente.
+4. Autorizar el acceso si es necesario.
+
+Resultado Esperado: 
+El usuario es redirigido a la página principal de la aplicación, mostrando que ha iniciado sesión correctamente.
