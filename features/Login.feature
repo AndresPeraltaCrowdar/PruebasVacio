@@ -1,7 +1,7 @@
 @Regression
 Feature: Login
 
-@Login @Smoke
+@Login @Smoke @Automated
 Scenario: Inicio de sesión exitoso con Facebook
   Given que el usuario está en la página de inicio de sesión
   When hace clic en el botón "Iniciar sesión con Facebook"
