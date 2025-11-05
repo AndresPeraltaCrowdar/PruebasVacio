@@ -23,6 +23,7 @@ Scenario: Error al intentar actualizar aplicación con campos vacíos
   Then el sistema no realiza ninguna acción de actualización
   And el usuario permanece en la versión actual de la aplicación
   
+@Automated
 Scenario: Error al intentar actualizar aplicación con campos vacíos
   Given que el usuario tiene la aplicación instalada y una nueva versión está disponible
   When el usuario inicia la aplicación
