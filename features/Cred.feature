@@ -1,18 +1,8 @@
 Feature: #Aquí se describe el título
-  Aquí se describe el feature
-  
-  #Aquí se describe el scenario
-  Scenario: título del escenario
-    Given precondiciones
-    When acciones
-    Then validaciones
-      
-  #Aquí se describe el scenario
-  Scenario Outline: título del escenario <campo> <campo2>
-    Given precondiciones
-    When acciones
-    Then validaciones
-    
-    Examples:
-      | campo | campo2 |
-      | dato  | dato2  |
+
+Scenario: Error de inicio de sesión por campos vacíos
+  Given que el usuario está en la página de inicio de sesión
+  When deja el campo de nombre de usuario vacío
+  And deja el campo de contraseña vacío
+  And hace clic en el botón de iniciar sesión
+  Then el sistema muestra un mensaje de error "Por favor, complete todos los campos"
