@@ -1,4 +1,4 @@
-@Regression
+@Regression @Smoke
 Feature: Login
 
 @Login @Smoke @Automated
