@@ -1,0 +1,28 @@
+Etiquetas: 
+@Registro @Google @Smoke @UI @OAuth
+
+Identificador: 
+REG-GOOG-001
+
+Título: 
+Registrar cuenta con Google exitosamente
+
+Descripción: 
+Validar que un usuario nuevo pueda registrarse usando su cuenta de Google y completar el alta en la aplicación.
+
+Precondiciones: 
+1. Tener conexión a internet estable.
+2. Disponer de una cuenta de Google válida sin registro previo en la aplicación: juan.perez+qa@gmail.com.
+3. Estar en la pantalla de registro de la aplicación con opción "Continuar con Google" visible.
+
+Pasos: 
+1. Hacer clic en "Continuar con Google".
+2. Seleccionar la cuenta "juan.perez+qa@gmail.com" en el selector de cuentas de Google.
+3. Validar el consentimiento solicitado y hacer clic en "Permitir".
+4. Esperar la redirección de vuelta a la aplicación.
+5. Completar los datos faltantes requeridos por la app (p.ej., teléfono +54 11 5555-1234 si es solicitado).
+6. Aceptar Términos y Condiciones marcando el checkbox.
+7. Hacer clic en "Finalizar registro".
+
+Resultado Esperado: 
+Visualizar el mensaje "Registro completado" y el usuario autenticado en la aplicación con el perfil creado utilizando el email de Google, quedando la sesión iniciada y accesos habilitados al dashboard. 
