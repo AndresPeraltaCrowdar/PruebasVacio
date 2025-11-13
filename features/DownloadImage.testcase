@@ -1,0 +1,24 @@
+Etiquetas:
+@Descargas @Adjuntos @Validaciones
+
+Identificador:
+TC-DESC-003
+
+Título:
+Impedir descarga cuando no se selecciona ningún adjunto
+
+Descripción:
+Validar que el sistema requiera la selección de un adjunto antes de iniciar la descarga.
+
+Precondiciones:
+1. Usuario con sesión iniciada: mariana.ruiz@example.com, contraseña: Mr#2024?.
+2. Mensaje abierto con múltiples adjuntos disponibles.
+
+Pasos:
+1. Abrir un mensaje con adjuntos.
+2. No seleccionar ningún adjunto.
+3. Hacer clic en el botón "Descargar".
+4. Observar el comportamiento del sistema.
+
+Resultado Esperado:
+El sistema no inicia la descarga y muestra la alerta "Seleccionar un adjunto para descargar." sin crear archivos en el directorio Descargas.
