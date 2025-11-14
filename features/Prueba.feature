@@ -8,18 +8,18 @@ Scenario: Error de inicio de sesión por campos vacíos
   And hace clic en el botón de iniciar sesión
   Then el sistema muestra un mensaje de error "Por favor, complete todos los campos"
   
-  Scenario: Error al intentar comprar sin completar los campos obligatorios
-  Given que el usuario ha iniciado sesión en su cuenta
-  When selecciona un producto de la lista de productos
-  And agrega el producto al carrito de compras
-  And procede al checkout
-  And deja los campos de información de pago vacíos
-  Then el sistema muestra un mensaje de error solicitando completar los campos obligatorios
+  Scenario: Error de registro por nombre de usuario inválido
+  Given que el usuario está en la página de registro
+  When ingresa un nombre de usuario inválido "us"
+  And ingresa una contraseña válida "ContraseñaSegura123"
+  And ingresa un correo electrónico válido "usuario@example.com"
+  And hace clic en el botón de registro
+  Then el sistema muestra un mensaje de error "El nombre de usuario debe tener al menos 3 caracteres"
   
-  Scenario: Error al intentar comprar sin completar los campos obligatorios
-  Given que el usuario ha iniciado sesión en su cuenta
-  When selecciona un producto de la lista de productos
-  And agrega el producto al carrito de compras
-  And procede al checkout
-  And deja los campos de información de pago vacíos
-  Then el sistema muestra un mensaje de error solicitando completar los campos obligatorios
+  Scenario: Error de registro por nombre de usuario inválido
+  Given que el usuario está en la página de registro
+  When ingresa un nombre de usuario inválido "us"
+  And ingresa una contraseña válida "ContraseñaSegura123"
+  And ingresa un correo electrónico válido "usuario@example.com"
+  And hace clic en el botón de registro
+  Then el sistema muestra un mensaje de error "El nombre de usuario debe tener al menos 3 caracteres"
