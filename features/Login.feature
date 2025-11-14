@@ -1,6 +1,6 @@
 Feature: Login
 
-@Smoke @ToBeAutomated
+@Smoke @Automated
 Scenario: Inicio de sesión exitoso con Facebook
   Given que el usuario está en la página de inicio de sesión
   When hace clic en el botón "Iniciar sesión con Facebook"
@@ -8,7 +8,7 @@ Scenario: Inicio de sesión exitoso con Facebook
   Then el sistema redirige al usuario a la página principal
   And muestra un mensaje de bienvenida
 
-@NoCandidate
+@ToBeAutomated
 Scenario: Error de inicio de sesión con Facebook por campos vacíos
   Given que el usuario está en la página de inicio de sesión
   When hace clic en el botón "Iniciar sesión con Facebook"
