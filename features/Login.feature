@@ -36,7 +36,7 @@ Scenario: Error de inicio de sesión con Facebook por credenciales inválidas
   And ingresa credenciales inválidas
   Then el sistema muestra un mensaje de error indicando que las credenciales son incorrectas
 
-@ToBeAutomated
+
 Scenario: Error de inicio de sesión con Facebook por credenciales inválidas
   Given que el usuario está en la página de inicio de sesión
   When hace clic en el botón "Iniciar sesión con Facebook"
@@ -50,7 +50,7 @@ Scenario: Error de inicio de sesión con Facebook por credenciales inválidas
   And ingresa credenciales inválidas
   Then el sistema muestra un mensaje de error indicando que las credenciales son incorrectas
 
-
+@ToBeAutomated
 Scenario: Error de inicio de sesión con Facebook por credenciales inválidas
   Given que el usuario está en la página de inicio de sesión
   When hace clic en el botón "Iniciar sesión con Facebook"
