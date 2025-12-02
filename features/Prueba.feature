@@ -1,4 +1,5 @@
-Feature: #Aquí se describe el título
+@ToBeAutomated
+Feature: Login
   Aquí se describe el feature
   
 Scenario: Error de inicio de sesión por campos vacíos
