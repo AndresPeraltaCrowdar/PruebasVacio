@@ -1,4 +1,4 @@
-@Regression @ToBeAutomated
+@Regression @Automated
 Feature: Compra
 
 @Ecommerce
