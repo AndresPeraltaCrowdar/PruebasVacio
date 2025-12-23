@@ -1,0 +1,28 @@
+Etiquetas: 
+@Productos @Imagenes @HappyPath @Smoke
+
+Identificador: 
+IMG-PROD-001
+
+Título: 
+Cargar imagen principal al producto exitosamente
+
+Descripción: 
+Validar que un usuario con permisos pueda cargar una imagen válida como principal a un producto existente.
+
+Precondiciones: 
+1. Tener usuario "maria.garcia@tienda.com" con rol "Gestor de catálogo" y contraseña "M4ria!2025".
+2. Tener producto existente con ID "SKU-AR12345" y estado "Activo".
+3. Disponer de archivo de imagen válido "campera_azul_frente.jpg" con formato JPG, tamaño 1.2 MB y dimensiones 1200x1200 px.
+
+Pasos: 
+1. Ingresar credenciales válidas y autenticar con "maria.garcia@tienda.com" y "M4ria!2025".
+2. Navegar al módulo Catálogo y seleccionar el producto con ID "SKU-AR12345".
+3. Hacer clic en la pestaña Imágenes.
+4. Hacer clic en el botón Cargar imagen.
+5. Seleccionar el archivo "campera_azul_frente.jpg" desde el explorador de archivos.
+6. Marcar la opción Establecer como imagen principal.
+7. Hacer clic en Guardar cambios.
+
+Resultado Esperado: 
+Visualizar la imagen "campera_azul_frente.jpg" cargada como principal en la galería del producto "SKU-AR12345", con vista previa correcta, estado "Publicado", sin errores, y registro de auditoría indicando
