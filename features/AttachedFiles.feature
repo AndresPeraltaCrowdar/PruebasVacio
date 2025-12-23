@@ -1,7 +1,6 @@
-@Login
+@Login @Regression
 Feature: Adjuntar imagen
 
-@Smoke
 Scenario: Carga exitosa de imagen al producto
   Given que el usuario se encuentra en la ficha de producto "Zapatillas Running X20"
   When hacer clic en "Agregar imagen"
