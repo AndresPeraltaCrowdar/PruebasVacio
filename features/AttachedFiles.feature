@@ -1,6 +1,7 @@
 @Login @Regression
 Feature: Adjuntar imagen
 
+@Candidate
 Scenario: Carga exitosa de imagen al producto
   Given que el usuario se encuentra en la ficha de producto "Zapatillas Running X20"
   When hacer clic en "Agregar imagen"
@@ -8,6 +9,7 @@ Scenario: Carga exitosa de imagen al producto
   Then visualizar la vista previa de la imagen seleccionada
   Then registrar la imagen al producto y mostrar el mensaje "Imagen cargada correctamente"
 
+@NoCandidate
 Scenario: Validación de campos vacíos al intentar cargar sin archivo
   Given que el usuario se encuentra en la ficha de producto "Zapatillas Running X20"
   When hacer clic en "Agregar imagen"
