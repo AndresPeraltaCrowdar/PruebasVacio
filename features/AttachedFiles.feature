@@ -1,3 +1,4 @@
+@Login
 Feature: Adjuntar imagen
 
 Scenario: Carga exitosa de imagen al producto
