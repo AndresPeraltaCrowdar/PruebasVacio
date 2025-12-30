@@ -17,7 +17,7 @@ Scenario: Validación de campos vacíos al intentar cargar sin archivo
   Then visualizar el mensaje de validación "Debe seleccionar una imagen"
   Then no registrar cambios en la galería del producto
   
-  @Login
+@Login @Smoke
 Scenario: Carga fallida de imagen por tamaño excedido
   Given que el usuario se encuentra en la ficha de producto "Zapatillas Running X20"
   When hacer clic en "Agregar imagen"
