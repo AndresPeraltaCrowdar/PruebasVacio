@@ -1,0 +1,24 @@
+Etiquetas: 
+@CrearArchivo @Éxito
+
+Identificador: 
+TC01
+
+Título: 
+Crear archivo exitosamente
+
+Descripción: 
+Validar que el usuario pueda crear un archivo exitosamente.
+
+Precondiciones: 
+1. El usuario debe estar autenticado en el sistema.
+2. El usuario debe tener permisos para crear archivos.
+
+Pasos: 
+1. Navegar a la sección de creación de archivos.
+2. Ingresar el nombre del archivo "Documento1".
+3. Seleccionar el tipo de archivo "Texto".
+4. Hacer clic en el botón "Crear".
+
+Resultado Esperado: 
+El sistema debe mostrar un mensaje de confirmación indicando que el archivo "Documento1" ha sido creado exitosamente.
