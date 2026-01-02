@@ -1,5 +1,6 @@
 Etiquetas: 
-@Automated @CreateFile @Regression
+@ToBeAutomated @CreateFile @Smoke
+
 
 Identificador: 
 TC01
