@@ -1,7 +1,7 @@
 @Automated
 Feature: login
 
-@Automated
+@Smoke @Automated
 Scenario: Inicio de sesión exitoso con credenciales válidas
   Given que el usuario se encuentra en la pantalla de Login
   When ingresar el correo "maria.lopez@example.com"
