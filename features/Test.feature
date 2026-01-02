@@ -29,7 +29,7 @@ Scenario: Compra exitosa con método de pago alternativo
   Then visualizar la confirmación de pedido con número de orden
   And registrar el estado del pedido como "Pago aprobado" y "Preparando envío"
   
-@NoCandidate
+@Regression @NoCandidate
 Scenario: Compra fallida por tarjeta de crédito inválida
   Given que el usuario se encuentra autenticado en la tienda y con el carrito vacío
   When buscar el producto "Auriculares Bluetooth ZX-500"
