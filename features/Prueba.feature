@@ -10,6 +10,7 @@ Scenario: Error de inicio de sesión por campos vacíos
   And hace clic en el botón de iniciar sesión
   Then el sistema muestra un mensaje de error "Por favor, complete todos los campos"
   
+@Automated  
 Scenario: Error de registro por nombre de usuario inválido
   Given que el usuario está en la página de registro
   When ingresa un nombre de usuario inválido "us"
