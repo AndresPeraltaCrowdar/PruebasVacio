@@ -1,7 +1,7 @@
 
 Feature: Compra
 
-@Ecommerce
+@Ecommerce @Smoke @Automated
 Scenario: Compra exitosa de un producto con pago aprobado
   Given que el usuario se encuentra autenticado en la tienda y con el carrito vacío
   When buscar el producto "Auriculares Bluetooth ZX-500"
