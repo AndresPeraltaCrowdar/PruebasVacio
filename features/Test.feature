@@ -1,4 +1,4 @@
-
+@Automated
 Feature: Compra
 
 @Ecommerce @Regression @Automated
