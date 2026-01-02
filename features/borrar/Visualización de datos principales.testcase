@@ -1,0 +1,22 @@
+Etiquetas:
+@Dashboard @Smoke @Automated
+
+Identificador:
+TC013
+
+Título:
+Visualización de datos principales
+
+Descripción:
+Verificar que el usuario pueda ver correctamente la información en el dashboard.
+
+Precondiciones:
+El usuario debe haber iniciado sesión.
+
+Pasos:
+1. Iniciar sesión
+2. Acceder al dashboard
+
+Resultado Esperado:
+El sistema muestra los widgets e información sin errores.
+

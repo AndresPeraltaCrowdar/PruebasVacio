@@ -1,0 +1,22 @@
+Etiquetas:
+@Buscador @Smoke @Automated
+
+Identificador:
+TC025
+
+Título:
+Búsqueda de elementos existentes
+
+Descripción:
+Verificar que el buscador retorne resultados correctos.
+
+Precondiciones:
+Base de datos con elementos disponibles.
+
+Pasos:
+1. Ingresar texto válido
+2. Ejecutar búsqueda
+
+Resultado Esperado:
+El sistema muestra coincidencias relevantes.
+

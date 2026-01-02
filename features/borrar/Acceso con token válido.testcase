@@ -1,0 +1,21 @@
+Etiquetas:
+@API @Smoke @Automated
+
+Identificador:
+TC030
+
+Título:
+Acceso con token válido
+
+Descripción:
+Verificar que la API acepte solicitudes con token válido.
+
+Precondiciones:
+Usuario autenticado con token válido.
+
+Pasos:
+1. Realizar una solicitud con token válido
+
+Resultado Esperado:
+La API responde con los datos esperados.
+

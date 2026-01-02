@@ -1,0 +1,22 @@
+Etiquetas:
+@Carga @UI @Automated
+
+Identificador:
+TC036
+
+Título:
+Carga de archivo válido
+
+Descripción:
+Verificar que el sistema acepte archivos con formatos permitidos.
+
+Precondiciones:
+
+
+Pasos:
+1. Seleccionar archivo .pdf válido
+2. Subir archivo
+
+Resultado Esperado:
+El archivo se carga y se guarda correctamente.
+

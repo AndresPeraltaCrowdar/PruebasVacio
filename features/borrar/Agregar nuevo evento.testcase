@@ -1,0 +1,23 @@
+Etiquetas:
+@Calendario @CRUD @Automated
+
+Identificador:
+TC044
+
+Título:
+Agregar nuevo evento
+
+Descripción:
+Verificar que el usuario pueda crear un evento nuevo.
+
+Precondiciones:
+Usuario con permisos.
+
+Pasos:
+1. Abrir calendario
+2. Agregar evento
+3. Guardar
+
+Resultado Esperado:
+El evento aparece correctamente en el calendario.
+
