@@ -1,7 +1,8 @@
 @Regression @ToBeAutomated
 Feature: Login
   Aquí se describe el feature
-  
+
+@Automated  
 Scenario: Error de inicio de sesión por campos vacíos
   Given que el usuario está en la página de inicio de sesión
   When deja el campo de nombre de usuario vacío
