@@ -2,6 +2,7 @@ Feature: login
 
 Login exitoso
 
+@ToBeAutomated
 Scenario: Inicio de sesión exitoso con credenciales válidas
   Given que el usuario se encuentra en la pantalla de Login
   When ingresar el correo "maria.lopez@example.com"
@@ -10,6 +11,7 @@ Scenario: Inicio de sesión exitoso con credenciales válidas
   Then validar el redireccionamiento al dashboard
   And visualizar el mensaje de bienvenida "Hola, María"
   
+@Automated
 Scenario: Redirección a restablecer contraseña
   Given que el usuario se encuentra en la pantalla de Login
   When hacer clic en el enlace "¿Olvidaste tu contraseña?"
