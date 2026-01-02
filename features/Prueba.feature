@@ -1,4 +1,4 @@
-@Regression @ToBeAutomated
+@ToBeAutomated
 Feature: Login
   Aquí se describe el feature
   
