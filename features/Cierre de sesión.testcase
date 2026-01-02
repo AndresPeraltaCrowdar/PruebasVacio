@@ -1,0 +1,21 @@
+Etiquetas:
+@Logout @Smoke @automated
+
+Identificador:
+TC015
+
+Título:
+Cierre de sesión
+
+Descripción:
+Verificar que el usuario pueda cerrar sesión correctamente.
+
+Precondiciones:
+El usuario debe haber iniciado sesión.
+
+Pasos:
+1. Hacer clic en botón de cerrar sesión
+
+Resultado Esperado:
+El sistema cierra la sesión y redirige al login.
+

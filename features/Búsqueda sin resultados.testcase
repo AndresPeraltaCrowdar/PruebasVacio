@@ -1,0 +1,22 @@
+Etiquetas:
+@Buscador @Regression @automated
+
+Identificador:
+TC026
+
+Título:
+Búsqueda sin resultados
+
+Descripción:
+Verificar comportamiento del buscador ante entradas inexistentes.
+
+Precondiciones:
+
+
+Pasos:
+1. Ingresar texto no relacionado
+2. Ejecutar búsqueda
+
+Resultado Esperado:
+El sistema muestra mensaje de "sin resultados".
+

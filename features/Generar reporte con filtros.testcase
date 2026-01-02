@@ -1,0 +1,22 @@
+Etiquetas:
+@Reportes @Regression @automated
+
+Identificador:
+TC040
+
+Título:
+Generar reporte con filtros
+
+Descripción:
+Verificar que los filtros aplicados afecten el contenido del reporte.
+
+Precondiciones:
+Usuario con permisos.
+
+Pasos:
+1. Aplicar filtros
+2. Generar reporte
+
+Resultado Esperado:
+El reporte solo incluye la información filtrada.
+

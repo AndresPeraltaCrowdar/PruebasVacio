@@ -1,0 +1,22 @@
+Etiquetas:
+@Soporte @Smoke @automated
+
+Identificador:
+TC045
+
+Título:
+Enviar solicitud de soporte
+
+Descripción:
+Verificar que el sistema permita contactar soporte.
+
+Precondiciones:
+Usuario autenticado.
+
+Pasos:
+1. Ir a contacto
+2. Enviar formulario
+
+Resultado Esperado:
+El sistema confirma el envío de la solicitud.
+

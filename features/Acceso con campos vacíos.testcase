@@ -1,0 +1,22 @@
+Etiquetas:
+@Login @Smoke @automated
+
+Identificador:
+TC005
+
+Título:
+Acceso con campos vacíos
+
+Descripción:
+Verificar que el sistema no permita el acceso si los campos están vacíos.
+
+Precondiciones:
+
+
+Pasos:
+1. Dejar campos de usuario y contraseña vacíos
+2. Hacer clic en Ingresar
+
+Resultado Esperado:
+El sistema muestra un mensaje solicitando completar los campos obligatorios.
+

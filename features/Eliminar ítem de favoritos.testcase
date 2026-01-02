@@ -1,0 +1,22 @@
+Etiquetas:
+@Favoritos @CRUD @automated
+
+Identificador:
+TC049
+
+Título:
+Eliminar ítem de favoritos
+
+Descripción:
+Verificar que el usuario pueda quitar un ítem de favoritos.
+
+Precondiciones:
+Ítem ya marcado como favorito.
+
+Pasos:
+1. Ver favoritos
+2. Eliminar ítem
+
+Resultado Esperado:
+El ítem desaparece de la lista.
+

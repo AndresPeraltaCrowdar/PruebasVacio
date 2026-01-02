@@ -1,0 +1,22 @@
+Etiquetas:
+@Registro @UI @automated
+
+Identificador:
+TC019
+
+Título:
+Verificar coincidencia de contraseñas
+
+Descripción:
+Verificar que el sistema solicite repetir contraseña y valide coincidencia.
+
+Precondiciones:
+
+
+Pasos:
+1. Ingresar contraseña y repetirla diferente
+2. Enviar formulario
+
+Resultado Esperado:
+El sistema muestra mensaje de error indicando que las contraseñas no coinciden.
+

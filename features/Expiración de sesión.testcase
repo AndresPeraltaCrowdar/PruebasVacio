@@ -1,0 +1,22 @@
+Etiquetas:
+@Sesión @Security @automated
+
+Identificador:
+TC020
+
+Título:
+Expiración de sesión
+
+Descripción:
+Verificar que la sesión expire tras un tiempo de inactividad.
+
+Precondiciones:
+El usuario debe haber iniciado sesión.
+
+Pasos:
+1. No realizar actividad por 30 minutos
+2. Intentar navegar
+
+Resultado Esperado:
+El sistema redirige al login indicando expiración.
+

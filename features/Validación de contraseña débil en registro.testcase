@@ -1,0 +1,23 @@
+Etiquetas:
+@Registro @UI @automated
+
+Identificador:
+TC009
+
+Título:
+Validación de contraseña débil en registro
+
+Descripción:
+Verificar que el sistema no permita registrar contraseñas débiles.
+
+Precondiciones:
+
+
+Pasos:
+1. Ir a pantalla de registro
+2. Ingresar contraseña simple como '1234'
+3. Enviar formulario
+
+Resultado Esperado:
+El sistema muestra mensaje de advertencia sobre contraseña insegura.
+

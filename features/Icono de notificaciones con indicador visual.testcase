@@ -1,0 +1,22 @@
+Etiquetas:
+@Notificaciones @UI @automated
+
+Identificador:
+TC031
+
+Título:
+Icono de notificaciones con indicador visual
+
+Descripción:
+Verificar que el ícono de notificaciones muestre contador si hay nuevas.
+
+Precondiciones:
+Usuario con notificaciones nuevas.
+
+Pasos:
+1. Iniciar sesión
+2. Observar ícono de notificación
+
+Resultado Esperado:
+El ícono muestra el contador de nuevas notificaciones.
+

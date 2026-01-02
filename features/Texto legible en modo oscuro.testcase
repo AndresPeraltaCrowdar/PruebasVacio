@@ -1,0 +1,22 @@
+Etiquetas:
+@UI @Regression @automated
+
+Identificador:
+TC024
+
+Título:
+Texto legible en modo oscuro
+
+Descripción:
+Verificar que el modo oscuro no afecte la visibilidad del texto.
+
+Precondiciones:
+Modo oscuro habilitado.
+
+Pasos:
+1. Activar modo oscuro
+2. Navegar por las secciones
+
+Resultado Esperado:
+El texto es legible en todas las vistas.
+
