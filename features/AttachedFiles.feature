@@ -23,3 +23,10 @@ Scenario: Carga fallida de imagen por tamaño excedido
   When hacer clic en "Agregar imagen"
   And seleccionar el archivo "zapatillas_x20_frente.jpg" de 6 MB en formato JPG
   Then visualizar el mensaje de error "El tamaño de la imagen excede el límite permitido"
+  
+@Login @Smoke @Automated
+Scenario: Carga fallida de imagen por tamaño excedido
+  Given que el usuario se encuentra en la ficha de producto "Zapatillas Running X20"
+  When hacer clic en "Agregar imagen"
+  And seleccionar el archivo "zapatillas_x20_frente.jpg" de 6 MB en formato JPG
+  Then visualizar el mensaje de error "El tamaño de la imagen excede el límite permitido"
