@@ -14,6 +14,7 @@ Scenario: Error de registro por correo electrónico inválido
   And hace clic en el botón de "Registrar"
   Then el sistema muestra un mensaje de error "Correo electrónico inválido"
   
+@NoCandidate
 Scenario: Error de registro por campos vacíos
   Given que el usuario está en la página de registro
   When deja todos los campos del formulario vacíos
