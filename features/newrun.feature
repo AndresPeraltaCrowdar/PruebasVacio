@@ -45,16 +45,25 @@ Feature: New run
     And hace click en la elipsis de la Run
     And hace click en <boton>
     And hace click en <filtro>
+    And selecciona <busqueda>
     And hace click en el botón ícono "Desplegable" del archivo <archivo>
-    And hace click en el checkbox del <unidad>
+    And hace click en el checkbox del caso de prueba
     And hace click en el boton Agregar
     Then se visualiza la prueba agregada correctamente en la run con el nombre Login
 
     @ES
     Examples:
-      | idioma | estado       | boton                   | archivo   | unidad          | filtro  |
-      | ES     | NO EJECUTADO | Agregar casos de prueba | feature   | caso de prueba  ||
+      | idioma | estado       | boton                   | archivo   | filtro    | busqueda  |
+      | ES     | NO EJECUTADO | Agregar casos de prueba | feature   | Etiqueta  | @Login    |
+      | ES     | NO EJECUTADO | Agregar casos de prueba | testcase  | Etiqueta  | @Login    |
+      | ES     | NO EJECUTADO | Agregar casos de prueba | feature   | Tipo      | Feature   |
+      | ES     | NO EJECUTADO | Agregar casos de prueba | testcase  | Tipo      | Testcase  |
       
+    @EN
+    Examples:
+      | idioma | estado       | boton                   | archivo   | filtro    | busqueda  |
+      | EN     | UNEXECUTED   | Agregar casos de prueba | feature   | Tag       | @Login    |
+      | EN     | UNEXECUTED   | Agregar casos de prueba | testcase  | Type      | Testcase  |
       
   @EliminarCreacionesWeb @Automated
   Scenario Outline: Descartar la adición de casos de prueba en una run dinámica en estado <estado>  (<idioma>)
