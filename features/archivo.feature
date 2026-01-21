@@ -20,7 +20,8 @@ Scenario: Error de registro por campos vacíos
   When deja todos los campos del formulario vacíos
   And hace clic en el botón de "Registrar"
   Then el sistema muestra un mensaje de error "Todos los campos son obligatorios"
-  
+
+@Automated
 Scenario: Error de registro por campos vacíos
   Given que el usuario está en la página de registro de Facebook
   When deja el campo de nombre vacío
