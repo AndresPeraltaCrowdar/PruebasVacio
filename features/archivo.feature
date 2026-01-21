@@ -7,6 +7,7 @@ Scenario: Registro exitoso de un nuevo usuario
   And hace clic en el botón de "Registrar"
   Then el sistema muestra un mensaje de confirmación "Registro exitoso"
   
+@Candidate
 Scenario: Error de registro por correo electrónico inválido
   Given que el usuario está en la página de registro
   When completa el formulario con nombre "Ana López", correo "ana.lopez@.com" y contraseña "Password123"
