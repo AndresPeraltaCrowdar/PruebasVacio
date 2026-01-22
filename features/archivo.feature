@@ -1,6 +1,6 @@
 Feature: Registro
 
-@ToBeAutomated
+@Regression @ToBeAutomated
 Scenario: Registro exitoso de un nuevo usuario
   Given que el usuario está en la página de registro
   When completa el formulario con nombre "Juan Pérez", correo "juan.perez@example.com" y contraseña "Password123"
