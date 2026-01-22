@@ -13,7 +13,12 @@ Scenario: Error de registro por correo electrónico inválido
   When completa el formulario con nombre "Ana López", correo "ana.lopez@.com" y contraseña "Password123"
   And hace clic en el botón de "Registrar"
   Then el sistema muestra un mensaje de error "Correo electrónico inválido"
-  
+  @Candidate
+Scenario: Error de registro por correo electrónico inválido
+  Given que el usuario está en la página de registro
+  When completa el formulario con nombre "Ana López", correo "ana.lopez@.com" y contraseña "Password123"
+  And hace clic en el botón de "Registrar"
+  Then el sistema muestra un mensaje de error "Correo electrónico inválido"
 @NoCandidate
 Scenario: Error de registro por campos vacíos
   Given que el usuario está en la página de registro
