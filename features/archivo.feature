@@ -30,3 +30,13 @@ Scenario: Error de registro por campos vacíos
   And deja el campo de contraseña vacío
   And hace clic en el botón "Registrarse"
   Then el sistema muestra un mensaje de error "Todos los campos son obligatorios"
+  
+@ToBeAutomated
+Scenario: Error de registro por campos vacíos
+  Given que el usuario está en la página de registro de Facebook
+  When deja el campo de nombre vacío
+  And deja el campo de apellido vacío
+  And deja el campo de correo electrónico vacío
+  And deja el campo de contraseña vacío
+  And hace clic en el botón "Registrarse"
+  Then el sistema muestra un mensaje de error "Todos los campos son obligatorios"
